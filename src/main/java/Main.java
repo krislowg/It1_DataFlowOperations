@@ -10,7 +10,7 @@ public class Main {
         // Call the parser
         CsvParser csvP = new CsvParser("src/Data/bookstore_report2.csv");
         csvP.printCsv();
-/*
+
         //  Create instance of GSON
         Gson gson = new Gson();
 
@@ -23,6 +23,6 @@ public class Main {
         // Check the data to print the name
         for (var element : authors) {
             System.out.println(element.getName());
-        }*/
+        }
     }
 }
